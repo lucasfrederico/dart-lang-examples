@@ -5,9 +5,7 @@ class Pessoa {
 
   Pessoa(this.nome, this._idade, this._altura);
 
-  int get idade {
-    return _idade;
-  }
+  int get idade => _idade;
 
   // Utilizar o setter somente quando precisa proteger a definição com alguma  condição
   set altura(double altura) {
